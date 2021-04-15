@@ -1,0 +1,20 @@
+{
+  "name": "peliarvostelut_metadata_collector",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/jaclaren/peliarvostelut_metadata_collector.git",
+  "author": "Jani <jani.claren@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest --notify",
+    "start": "parcel --target=node src/**/*.ts & nodemon dist/*.js"
+  },
+  "dependencies": {
+    "babel": "^6.23.0",
+    "html-react-parser": "^1.2.5",
+    "underscore": "^1.13.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.2.4"
+  }
+}
